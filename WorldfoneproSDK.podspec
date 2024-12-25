@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.description = "WorldfoneproSDK is a comprehensive framework for managing voice and video calls with seamless integration for iOS applications."
     s.homepage     = 'https://southtelecom.vn'
     s.swift_versions = ['5.0']
-    s.license      = { :type => 'MIT', :file => 'LICENSE' }
+    s.license = { :type => 'MIT', :file => 'LICENSE' }
     s.author       = { 'VuPhan' => 'phanvanvu.0313@gmail.com' }
     s.source = { :git => 'https://github.com/phanvu0313/WorldfoneproSDK.git', :tag => '1.0.0' }
     s.platform     = :ios, '13.0'
