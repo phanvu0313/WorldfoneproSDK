@@ -24,6 +24,8 @@ public class WorldfoneProCall: UIView {
 
     private func setupWebView() {
         let webConfiguration = WKWebViewConfiguration()
+        webConfiguration.allowsInlineMediaPlayback = true
+        webConfiguration.mediaTypesRequiringUserActionForPlayback = []
         webView = WKWebView(frame: .zero, configuration: webConfiguration)
         webView.navigationDelegate = self
         webView.translatesAutoresizingMaskIntoConstraints = false
